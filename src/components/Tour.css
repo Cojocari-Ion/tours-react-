@@ -1,0 +1,52 @@
+.tour-card {
+    margin: 30px auto;
+    width: 700px;
+    border: 2px solid rgb(187, 0, 0);
+}
+
+.description {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle {
+    text-transform: capitalize;
+}
+
+.price {
+    color: rgb(187, 0, 0);
+    font-weight: 800;
+    font-size: 18px;
+    background-color: rgba(187, 0, 0, 0.1);
+    padding: 3px 7px;
+}
+
+.info {
+    width: 80%;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.remove-button {
+    border: rgb(187, 0, 0) solid 3px;
+    background-color: transparent;
+    margin: 20px auto ;
+    font-size: 30px;
+    color: rgb(187, 0, 0);
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: rgba(187, 0, 0, 0.1) ;
+}
+
+.text-remove-btn {
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    color: rgb(187, 0, 0);
+    cursor: pointer;
+}
